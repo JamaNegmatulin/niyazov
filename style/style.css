@@ -51,6 +51,9 @@
 .right{
     max-width: 555px;
 }
+.kurstwo{
+    display: none;
+}
 
 .header_p{
     font-size: 24px;
@@ -287,7 +290,9 @@
     line-height: 1.4;
     font-weight: normal;
 }
-
+.kont{
+    margin-right: 20px;
+}
 .my a{
     color: white;
     text-decoration: none;
@@ -364,5 +369,218 @@
     }
     .header_container{
         margin-bottom: 0;
+    }
+    .kursone{
+        display: none;
+    }
+    .kurstwo{
+        display: block;
+        height: 100%;
+    }
+    .img_sponsor img{
+        width: 154px;
+        height: 124.5px;
+        align-items: center;
+    }
+    .img_sponsor{
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        width: 154px;
+        height: 124.5px;
+        margin-right: 16px;
+        margin-top: 20px;
+
+    }
+    .h3_sponsor{
+        font-size: 14px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 0px;
+    width: 133px;
+    margin: 0;
+    margin-top: 10px;
+    }
+    .p_sponsor{
+        font-size: 10px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: normal;
+    width: 160px;
+    margin: 0;
+    margin-top: 10px;
+    }
+    .sponsor_container,
+    .sponsor{
+        height: auto;
+        justify-content: center;
+        
+    }
+    .sponsor_container{
+        padding: 20px 0;
+    }
+    .link_sponsor{
+        font-size: 11px;
+        color: white;
+        text-transform: initial;
+        line-height: 1.4;
+        font-weight: normal;
+        width: 107px;
+        padding: 5px 11px;
+        background-color: #EE3344;
+        text-decoration: none;
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 10px;
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .otzivi h2{
+        font-size: 18px;
+        color: white;
+        text-transform: uppercase;
+        line-height: 1.4;
+        font-weight: normal;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .otzivi p{
+        font-size: 14px;
+        color: white;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+        /* text-align: center; */
+        padding-top: 15px;
+        width: 233px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .video{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 22px;
+        width: 330px;
+        height: 183px;
+        margin: 0 auto;
+    }
+    iframe{
+        width: 330px;
+        height: 183px;
+    }
+    .otzivi{
+        padding-bottom: 22px;
+    }
+    .komol{
+        height: 210px;
+        /* background-color: #3C3C3C; */
+        padding: 22px 0 ;
+        background-color: #555555;
+    }
+    .h3_komol{
+        font-size: 14px;
+        color: white;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+        margin-top: 0px;
+        width: 176px;
+        margin-top: 15px;
+    }
+    .p_komol{
+        font-size: 9px;
+        color: white;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+        margin-top: 0px;
+        width: 144px;
+        margin-top: 15px;
+    }
+    .a_komol{
+        font-size: 11px;
+        color: white;
+        text-transform: initial;
+        line-height: 1.4;
+        font-weight: normal;
+        width: 107px;
+        padding: 5px 11px;
+        background-color: #EE3344;
+        text-decoration: none;
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 0px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .container_p p{
+        font-size: 9px;
+        color: white;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+        
+        text-align: right; 
+        width: 153px;
+        margin: 0;
+        margin-left: 260px;
+        display: block;
+        margin-top: 10px;
+        /* width: 503px;
+        display: flex;
+        justify-content: right; */
+    }
+    .komol_right img{
+        max-width: 155px;
+        height: auto;
+    }
+    .komol_container{
+        background-color: none;
+        justify-content: center;
+    }
+    .hero_h3{
+        font-size: 18px;
+        color: white;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* .map{
+        width: 272px;
+        height: 178px;
+    } */
+    .footer_container p{
+        font-size: 24px;
+        color: white;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+    }
+    .footer_container a{
+        font-size: 14px;
+        color: white;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .my{
+        display: flex;
+        justify-content: end;
+        padding: 15px;
+        font-size: 9px;
+        text-transform: inherit;
+        line-height: 1.4;
+        font-weight: normal;
+    }
+    .kont{
+        margin-right: 20px;
     }
 }
