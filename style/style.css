@@ -1,0 +1,291 @@
+/* @import 'fonts.css'; */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #232323;
+    height: 1024px;
+}
+.header_container{
+    /* width: 1585px; */
+    height: 674px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.ul_nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 460px;
+    margin: 0 auto 100px;
+    padding-top: 50px;
+}
+.li_nav a{
+    /* font-family: 'Montserrat Regular'; */
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: normal;
+    text-decoration: none;
+}
+.header_h2{
+    /* font-family: 'Montserrat Regular'; */
+    font-size: 48px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: normal;
+    max-width: 744px;
+    margin-top: 50px;
+}
+
+.right{
+    max-width: 555px;
+}
+
+.header_p{
+    font-size: 24px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: normal;
+    max-width: 430px;
+    margin-top: 20px;
+}
+
+.link_header{
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: normal;
+    max-width: 260px;
+    padding: 14px 37px 17px;
+    text-decoration: none;
+    background-color: #EE3344;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.link_header:hover{
+    color: rgb(66, 65, 65);
+}
+.cols{
+    max-width: 490px;
+    display: flex;
+}
+.kurs img{
+    width: 100%;
+}
+
+.sponsor{
+    background-color: #3C3C3C;
+    height: 730px;
+}
+.sponsor_container{
+    display: flex;
+    padding: 80px 0;
+}
+.img_sponsor img{
+    width: 580px;
+    height: auto;
+}
+.img_sponsor{
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.h3_sponsor{
+    font-size: 48px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.p_sponsor{
+    font-size: 36px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: normal;
+    width: 614px;
+    margin-top: 30px;
+}
+.link_sponsor{
+    font-size: 24px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: normal;
+    width: 260px;
+    padding: 14px 30px 17px;
+    background-color: #EE3344;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+.link_sponsor:hover{
+    color: rgb(66, 65, 65);
+}
+.otzivi{
+    background-color: #232323;
+}
+.otzivi h2{
+    font-size: 58px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 15px;
+}
+.otzivi p{
+    font-size: 48px;
+    color: white;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+    /* text-align: center; */
+    padding-top: 30px;
+    width: 950px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+.video{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.komol{
+    height: 790px;
+    background-color: #3C3C3C;
+    padding: 140px 0 ;
+}
+.komol_container{
+    display: flex;
+    background-color: #555555;
+    border-radius: 25px;
+    
+}
+.komol_right img{
+    width: 100%;
+    height: auto;
+}
+.h3_komol{
+    font-size: 36px;
+    color: white;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-top: 100px;
+}
+.p_komol{
+    font-size: 24px;
+    color: white;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-top: 25px;
+    width: 503px;
+}
+.komol_left{
+    padding-left: 30px;
+}
+.a_komol{
+    font-size: 24px;
+    color: white;
+    text-transform: initial;
+    line-height: 1.4;
+    font-weight: normal;
+    width: 250px;
+    padding: 15px 37px 16px;
+    background-color: #EE3344;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+}
+.a_komol:hover{
+    color: rgb(66, 65, 65);
+}
+.container_p p{
+    font-size: 24px;
+    color: white;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: right; 
+    /* width: 503px;
+    display: flex;
+    justify-content: right; */
+}
+
+.hero{
+    background-color: #232323;
+}
+.hero_h3{
+    font-size: 35px;
+    color: white;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.hero_cobtainer{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.map{
+    text-align: center;
+    width: 100%;
+}
+.footer_container p{
+    font-size: 35px;
+    color: white;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+}
+.footer{
+        background-color: #3C3C3C;
+}
+.footer_container a{
+    font-size: 26px;
+    color: white;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+    text-decoration: none;
+}
+.footer_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.my{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    font-size: 26px;
+    text-transform: inherit;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+.my a{
+    color: white;
+    text-decoration: none;
+}
