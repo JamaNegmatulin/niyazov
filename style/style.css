@@ -51,12 +51,7 @@
 .right{
     max-width: 555px;
 }
-.kurstwo{
-    display: none;
-}
-.kurstwo img{
-    display: none;
-}
+
 
 .header_p{
     font-size: 24px;
@@ -372,20 +367,6 @@
     }
     .header_container{
         margin-bottom: 0;
-    }
-    .kursone{
-        display: none;
-    }
-    .kursone img{
-        display: none;
-    }
-    .kurstwo{
-        display: block;
-        /* height: 100%; */
-    }
-    .kurstwo img{
-        /* width: 100%; */
-        display: block;
     }
     .img_sponsor img{
         width: 154px;
