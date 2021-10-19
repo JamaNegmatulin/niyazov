@@ -54,6 +54,9 @@
 .kurstwo{
     display: none;
 }
+.kurstwo img{
+    display: none;
+}
 
 .header_p{
     font-size: 24px;
@@ -373,12 +376,15 @@
     .kursone{
         display: none;
     }
+    .kursone img{
+        display: none;
+    }
     .kurstwo{
-        display: reverse;
-        height: 100%;
+        display: block;
+        /* height: 100%; */
     }
     .kurstwo img{
-        width: 100%;
+        /* width: 100%; */
         display: block;
     }
     .img_sponsor img{
