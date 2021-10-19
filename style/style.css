@@ -45,6 +45,9 @@
     margin-top: 50px;
 }
 
+.cols2{
+    display: none;
+}
 .right{
     max-width: 555px;
 }
@@ -288,4 +291,73 @@
 .my a{
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 360px){
+    .header_h2{
+        /* font-family: 'Montserrat Regular'; */
+        font-size: 14px;
+        color: white;
+        text-transform: initial;
+        line-height: 1.4;
+        font-weight: normal;
+        max-width: 176px;
+        margin-top: 0px;
+    }
+    .header_p{
+        font-size: 10px;
+        color: white;
+        text-transform: initial;
+        line-height: 1.4;
+        font-weight: normal;
+        max-width: 207px;
+        margin-top: 0;
+    }
+    .link_header{
+        display: inline-block;
+        font-size: 11px;
+        color: white;
+        text-transform: initial;
+        line-height: 1.4;
+        font-weight: normal;
+        max-width: 107px;
+        padding: 5px 11px ;
+        text-decoration: none;
+        background-color: #EE3344;
+        border-radius: 10px;
+        margin-top: 0;
+    }
+    .right,
+    .left{
+        height: auto;
+    }
+    .header_container{
+        height: auto;
+    }
+    .right img{
+        width: 154px;
+        height: 122px;
+    }
+    .cols{
+        display: none;
+    }
+    .ul_nav{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .cols2{
+        display: block;
+        margin: 0 auto;
+    }
+    .cols2 img{
+        width: 272px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 21px;
+    }
+    .header_container{
+        margin-bottom: 0;
+    }
 }
