@@ -374,11 +374,12 @@
         display: none;
     }
     .kurstwo{
-        display: block;
+        display: reverse;
         height: 100%;
     }
     .kurstwo img{
         width: 100%;
+        display: block;
     }
     .img_sponsor img{
         width: 154px;
